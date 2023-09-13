@@ -1,0 +1,1 @@
+const apiKey = require('./config').API_KEY;
