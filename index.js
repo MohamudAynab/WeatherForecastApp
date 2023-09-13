@@ -14,11 +14,8 @@ search.addEventListener('click', async () => {
   }
 
   try {
-    // Make a request to the serverless function
-    const response = await fetch('/.netlify/functions/weather-function', {
-      method: 'POST', // or 'GET' depending on your serverless function setup
-      body: JSON.stringify({ city }),
-    });
+    // Make a GET request to the serverless function
+    const response = await fetch(`/.netlify/functions/weather-function?city=${city}`);
 
     if (!response.ok) {
       throw new Error('Server response was not OK');
