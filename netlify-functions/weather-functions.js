@@ -1,4 +1,3 @@
-// serverless function (weather-function.js)
 exports.handler = async () => {
     try {
       const apiKey = process.env.API_KEY; // Access environment variable
