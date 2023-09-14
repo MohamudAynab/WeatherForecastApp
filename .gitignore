@@ -24,7 +24,7 @@ npm-debug.log*
 *.sln
 *.sw??
 
-
+config.js
 
 
 package-lock.json
