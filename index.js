@@ -1,6 +1,4 @@
-import { API_KEY } from './config.js';
-
-
+import { API_KEY } from "./config.js";
 
 const container = document.querySelector('.container');
 const search = document.querySelector('.search-box button');

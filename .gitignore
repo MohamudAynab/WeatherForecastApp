@@ -1,30 +1,10 @@
-# Ignore Node.js modules
+# Ignore the config.js file containing the API key
+congif.js
+
 node_modules/
 
-# Ignore build output
-dist/
-build/
-*.log
-*.tmp
-npm-debug.log*
 
-# Ignore environment-specific files
-.env
-.env.local
-.env.development
-.env.test
-.env.production
 
-# Ignore user-specific files
-.vscode/
-.idea/
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw??
-
-*./config.js
 
 
 package-lock.json
